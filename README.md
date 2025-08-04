@@ -1,39 +1,28 @@
-Here's the complete `README.md` file for your project **FileMind**:
+# 📄 FileMind – AI That Reads and Responds
 
----
-
-````markdown
-# 🤖 FileMind
-
-FileMind is a smart, interactive chatbot application powered by **LangChain** and **OpenAI**. Built with **Streamlit**, it supports:
-- Dynamic Q&A with conversational memory
-- Chat history
-- Drag-and-drop PDF and CSV file uploads
-- Contextual answering from uploaded documents
-
----
-
-
+FileMind is an **AI-powered chatbot** built with **Streamlit**, **LangChain**, and **OpenAI** that can read your **PDF/CSV** files and answer questions using the file’s content as context.  
+It supports multi-turn conversations with memory, making it perfect for interactive Q&A sessions.
 
 ---
 
 ## 🚀 Features
-
-✅ Ask questions on any topic  
-✅ Upload PDFs or CSVs and query them  
-✅ View full chat history  
-✅ Uses OpenAI or Hugging Face LLMs via Langchain  
-✅ Clean and simple Streamlit UI
+- 📂 **Upload PDF/CSV files** and query them instantly
+- 💬 **Conversational AI** with chat history using LangChain’s `ConversationBufferMemory`
+- 🤖 Powered by **OpenAI GPT** models via LangChain
+- 📑 Extracts file content using **PyMuPDF (`fitz`)** and **pandas**
+- 🖥 Simple, clean **Streamlit** UI
 
 ---
 
 ## 🧱 Tech Stack
-
-- **LangChain**
-- **OpenAI / Hugging Face (LLMs)**
+- **Python 3.10+**
 - **Streamlit**
-- **PyPDF2** – For parsing PDFs  
-- **pandas** – For handling CSVs  
+- **LangChain**
+- **OpenAI API**
+- **PyMuPDF (`fitz`)**
+- **pandas**
+
+---
 
 ---
 
