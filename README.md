@@ -1,11 +1,11 @@
-Here's the complete `README.md` file for your project **IntelliChat**:
+Here's the complete `README.md` file for your project **FileMind**:
 
 ---
 
 ````markdown
-# 🤖 IntelliChat
+# 🤖 FileMind
 
-IntelliChat is a smart, interactive chatbot application powered by **LangChain** and **OpenAI**. Built with **Streamlit**, it supports:
+FileMind is a smart, interactive chatbot application powered by **LangChain** and **OpenAI**. Built with **Streamlit**, it supports:
 - Dynamic Q&A with conversational memory
 - Chat history
 - Drag-and-drop PDF and CSV file uploads
@@ -13,10 +13,7 @@ IntelliChat is a smart, interactive chatbot application powered by **LangChain**
 
 ---
 
-## 📸 Demo Screenshot
 
-![IntelliChat Screenshot](demo.png)  
-> *Replace this with your own image named `demo.png` in the root folder.*
 
 ---
 
@@ -45,8 +42,8 @@ IntelliChat is a smart, interactive chatbot application powered by **LangChain**
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/IntelliChat.git
-cd IntelliChat
+git clone https://github.com/yourusername/FileMind.git
+cd FileMind
 ````
 
 ### 2. Create Virtual Environment (optional but recommended)
@@ -97,7 +94,7 @@ OPENAI_API_KEY=your-openai-api-key
 * PDF: Any readable text-based document
 * CSV: Well-formatted table with headers
 
-Once uploaded, IntelliChat can answer questions **based on the content** of the file.
+Once uploaded, FileMind can answer questions **based on the content** of the file.
 
 ---
 
@@ -115,7 +112,7 @@ Then open your browser and go to:
 ## 📌 File Structure
 
 ```
-IntelliChat/
+FileMind/
 │
 ├── app.py               # Main Streamlit app
 ├── requirements.txt     # Dependencies
@@ -144,7 +141,7 @@ This project is licensed under the MIT License.
 
 ## 🙋‍♀️ Contact
 
-Created by **Mansi Gupta**.
+Created by **Nitin Rathour**.
 Feel free to raise issues or feature requests.
 
 ---
